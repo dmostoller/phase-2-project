@@ -7,6 +7,7 @@ import HomePage from './components/HomePage.js';
 import ContactPage from './components/ContactPage.js';
 import AboutPage from './components/AboutPage.js';
 import { Routes, Route } from 'react-router-dom';
+import PaintingDetail from './components/PaintingDetail.js';
 
 export default function App() {
   const [pageToLoad, setPageToLoad] = useState("homepage")
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage/>} />
           <Route path="/paintings" element={<PaintingsPage/>} />
+          <Route path="/paintings/:id" element={<PaintingDetail />} />
           <Route path="/contact" element={<ContactPage/>} />
       </Routes>
       </div>
