@@ -1,13 +1,14 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
    return ( 
     <header className="ui container">
       <div className="ui four item menu">
-        <a className="item active" >Home</a>
-        <a className="item" >About Me</a>
-        <a className="item" >Portfolio</a>
-        <a className="item" >Contact</a>
+        <NavLink to="/" className="item" >Home</NavLink>
+        <NavLink to="/about" className="item" >About Me</NavLink>
+        <NavLink to="/paintings" className="item" >Paintings</NavLink>
+        <NavLink to="/contact" className="item" >Contact</NavLink>
       </div>
     </header>
     )

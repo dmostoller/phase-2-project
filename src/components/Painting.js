@@ -3,16 +3,16 @@ import React from "react";
 export default function Painting ({image, title, sold, width, height, materials, price, id}) {
     return (
         <div className="four wide columns">
-        <div class="ui card">
-            <div class="image">
+        <div className="ui card">
+            <div className="image">
                 <img src={image}></img>
             </div>
-            <div class="content">
-                <a class="header">{title}</a>
-                <div class="description">{materials}</div>
-                <div class="description">{width}" x {height}"</div>
+            <div className="content">
+                <a className="header">{title}</a>
+                <div className="description">{materials}</div>
+                <div className="description">{width}" x {height}"</div>
                
-                <div class="description">
+                <div className="description">
                     {sold ? "SOLD" : <a>{price}</a>}
                 </div>
 
