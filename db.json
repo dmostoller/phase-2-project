@@ -201,10 +201,22 @@
     "comments": [
       {
         "id": 1,
+        "painting_id": 1,
         "name": "David",
         "comment": "I love the colors",
-        "date_added": "",
-        "email": ""
+        "date_added": ""
+      },{
+        "id": 2,
+        "painting_id": 1,
+        "name": "David",
+        "comment": "I love the colors",
+        "date_added": ""
+      },{
+        "id": 3,
+        "painting_id": 1,
+        "name": "David Mostoller",
+        "comment": "I love the colors",
+        "date_added": ""
       }
     ]
   }

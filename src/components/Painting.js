@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Painting ({image, title, sold, width, height, materials, price}) {
+export default function Painting ({image, title, sold, width, height, materials, price, id}) {
     return (
         <div className="four wide columns">
         <div class="ui card">
