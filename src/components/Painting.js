@@ -11,12 +11,13 @@ export default function Painting ({image, title, sold, width, height, materials,
                 <a class="header">{title}</a>
                 <div class="description">{materials}</div>
                 <div class="description">{width}" x {height}"</div>
+               
                 <div class="description">
-                    {sold ? "SOLD" : price}
+                    {sold ? "SOLD" : <a>{price}</a>}
                 </div>
 
-                <div>
-                    <button className="ui button">View Comments</button>
+                <div style={{paddingBottom: "5px", float: "right"}}> 
+                    <button className="ui button small teal">View Comments</button>
                 </div>
             </div>
         </div>
