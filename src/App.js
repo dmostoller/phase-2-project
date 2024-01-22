@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import './semantic/dist/semantic.min.css'
+import Header from './components/Header.js';
+import PaintingsPage from './components/PaintingsPage.js';
+import HomePage from './components/HomePage.js';
 
-function App() {
+export default function App() {
+  const [pageToLoad, setPageToLoad] = useState("homepage")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='ui container'>
+      <Header pageToLoad={pageToLoad} onChangePage={setPageToLoad}/>
+      <HomePage />
+      <div style={{marginTop: "25px"}}>
+      <PaintingsPage />
+      </div>
     </div>
   );
 }
 
-export default App;
