@@ -40,6 +40,7 @@ function CommentForm({onAddComment, paintingId}){
             </div>
             <div className="field"></div>
             <button style={{float: "right"}} className="ui button small teal" type="submit">Submit</button>
+            {/* Alert box to show are you sure this is what you want? */}
         </form>
     )
 }
