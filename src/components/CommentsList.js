@@ -23,7 +23,7 @@ function CommentsList(){
         />
         ))
 
-    const addComment = newComment =>{
+    const addComment = (newComment) =>{
         setComments([...comments, newComment])
     }
 
