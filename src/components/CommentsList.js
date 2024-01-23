@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import Comment from "./Comment";
+import CommentForm from "./CommentForm";
 
 function CommentsList(){
     const [comments, setComments] = useState([])
@@ -22,9 +23,14 @@ function CommentsList(){
         />
         ))
 
+    const addComment = newComment =>{
+        setComments([...comments, newComment])
+    }
+
     return (
         <div>
             {commentsSection}
+            <div><CommentForm onAddComment={addComment}/></div>
         </div>
     );
 }

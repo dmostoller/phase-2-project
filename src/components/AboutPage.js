@@ -5,18 +5,18 @@ import { Link } from "react-router-dom";
 export default function AboutPage () {
 
 return (
-    <div style={{width: "75%", margin: "auto"}} class="ui card">
-        <div class="image">
-            <img class="ui huge image" src="./images/slider-2.jpg" />
+    <div style={{width: "75%", margin: "auto"}} className="ui card">
+        <div className="image">
+            <img className="ui huge image" src="./images/slider-2.jpg" />
         </div>
-        <div class="content">
-            <div class="header">
+        <div className="content">
+            <div className="header">
                 Yasmin Mostoller
             </div>
-            <div class="meta">
-                <span class="category">Philadelphia, PA</span>
+            <div className="meta">
+                <span className="category">Philadelphia, PA</span>
             </div>
-            <div class="description">
+            <div className="description">
                 <p>A trained artist with a Master's degree in Fine Arts originally from Tehran, Iran and now living in Philadelphia, Pennsylvania. My paintings are colorful, abstract, geometric, and imaginative works that are a window into my creative mind. Thanks for visiting my website.</p>
             </div>
             <div>
