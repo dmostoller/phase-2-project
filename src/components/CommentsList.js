@@ -30,7 +30,7 @@ function CommentsList(){
     return (
         <div>
             {commentsSection}
-            <div><CommentForm onAddComment={addComment}/></div>
+            <div><CommentForm onAddComment={addComment} paintingId={id}/></div>
         </div>
     );
 }
