@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {Link} from "react-router-dom";
 import CommentsList from "./CommentsList";
+import CommentForm from "./CommentForm";
 
 function PaintingDetail(){
     const [painting, setPainting] = useState({})
@@ -29,6 +30,7 @@ function PaintingDetail(){
                     {painting.sold ? "SOLD" : <a>{painting.price}</a>}
                 </div>
                 <div><CommentsList /></div>
+                <div><CommentForm /></div>
                 <div style={{paddingBottom: "5px", float: "right"}}> 
                     <Link to="/paintings" className="ui button small teal" >Back</Link>
                 </div>

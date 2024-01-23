@@ -1,26 +1,33 @@
 import React, {useEffect, useState} from "react";
+import {useParams} from "react-router-dom";
+import Comment from "./Comment";
 
 function CommentsList(){
     const [comments, setComments] = useState([])
+    const {id} = useParams();
 
     useEffect(() => {
-        fetch("http://localhost:3004/comments")
+        fetch(`http://localhost:3004/comments`)
        .then((res) => res.json())
        .then((comments) => setComments(comments))
     }, []);
 
-    if (!comments) {return <div>Loading...</div>}
+    const filteredComments = comments.filter(comment => {
+        return(comment.painting_id === id)
+    });
+    console.log(filteredComments);
+
+    const commentsSection = filteredComments.map(comment => (
+        <Comment 
+            key={comment.id} 
+            name={comment.name} 
+            comment={comment.comment} 
+        />
+    ))
 
     return (
         <div>
-            {comments.map((comment) => (
-                <div key={comment.id} className="ui segment">
-                    <div className="content">
-                        <a className="header">{comment.name}</a>
-                        <div className="description">{comment.comment}</div>
-                    </div>
-                </div>
-            ))}
+            {commentsSection}
         </div>
     );
 }
