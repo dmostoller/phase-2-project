@@ -1,11 +1,12 @@
 import React, {useState} from "react";
 
-const initialState = {
-    name: "",
-    comment: ""
-}
-
-function CommentForm({onAddComment}){
+function CommentForm({onAddComment, paintingId}){
+    const initialState = {
+        painting_id: parseInt(paintingId),
+        name: "",
+        comment: ""
+    }
+    
     const [formData, setFormData] = useState(initialState)
 
     function handleChange(e) {
@@ -15,6 +16,7 @@ function CommentForm({onAddComment}){
 
     function handleAddNewComment(e){
         e.preventDefault()
+        setFormData({...formData, painting_id: paintingId})
         fetch("http://localhost:3004/comments", {
             method: "POST",
             headers: {
@@ -25,8 +27,8 @@ function CommentForm({onAddComment}){
             .then((res) => res.json())
             .then((comment) => {
                 onAddComment(comment)
-                setFormData(initialState)
             })
+        setFormData(initialState)
     }
 
     return (

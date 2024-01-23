@@ -200,25 +200,26 @@
   ],
   "comments": [
     {
-      "id": "1",
+      "id": 1,
       "painting_id": 1,
       "name": "David",
       "comment": "I love the colors",
       "date_added": ""
     },
     {
-      "id": "2",
+      "id": 2,
       "painting_id": 1,
       "name": "David",
       "comment": "I love the colors",
       "date_added": ""
     },
     {
-      "id": "3",
+      "id": 3,
       "painting_id": 1,
       "name": "David Mostoller",
       "comment": "I love the colors",
       "date_added": ""
+<<<<<<< HEAD
     },
     {
       "id": "cc87",
@@ -574,6 +575,8 @@
       "id": "4ba4",
       "name": "",
       "comment": ""
+=======
+>>>>>>> a015a0106dda399b72187a79505449436692c1c4
     }
   ]
 }
