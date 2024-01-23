@@ -17,13 +17,11 @@ function CommentsList(){
     });
     console.log(filteredComments);
 
-    if (!comments) {return <div>Loading...</div>}
-
     const commentsSection = filteredComments.map(comment => (
         <Comment 
-            key={filteredComments.id} 
-            name={filteredComments.name} 
-            comment={filteredComments.comment} 
+            key={comment.id} 
+            name={comment.name} 
+            comment={comment.comment} 
         />
     ))
 
