@@ -6,6 +6,10 @@ import CommentForm from "./CommentForm";
 function CommentsList(){
     const [comments, setComments] = useState([])
     const {id} = useParams();
+    const [isComFormVis, setIsComFormVis] = useState(false)
+    function changeIsComFormVis() {
+        setIsComFormVis(!isComFormVis)
+    }
 
     useEffect(() => {
         fetch(`http://localhost:3004/comments`)
@@ -30,7 +34,9 @@ function CommentsList(){
     return (
         <div>
             {commentsSection}
-            <div><CommentForm onAddComment={addComment} paintingId={id}/></div>
+            <div>
+                {isComFormVis ? <CommentForm onAddComment={addComment} paintingId={id} onChangeIsComFormVis={changeIsComFormVis} /> : <button onClick={changeIsComFormVis} className="ui button small teal">Add Comment</button>}
+            </div>
         </div>
     );
 }

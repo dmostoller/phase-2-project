@@ -33,12 +33,11 @@ function PaintingDetail(){
             </div>  
             <div className="ui container">
                     <h1>Comments</h1>  
-                    <div><CommentsList /></div>
-                    <div style={{paddingBottom: "5px", float: "right"}}> 
-                        <Link to="/paintings" className="ui button small teal" >Back</Link>
-                    </div>
+                    <div><CommentsList /></div>          
             </div>
-
+            <div className="ui container" style={{padding: "10px" }}> 
+                <Link to="/paintings" className="ui button small teal" >Back</Link>
+            </div>
         </div>
     );
 }
