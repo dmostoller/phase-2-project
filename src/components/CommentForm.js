@@ -23,8 +23,10 @@ function CommentForm({onAddComment}){
             body: JSON.stringify({...formData})
         })
             .then((res) => res.json())
-            .then((comment) => {onAddComment(comment)})
-            setFormData(initialState)
+            .then((comment) => {
+                onAddComment(comment)
+                setFormData(initialState)
+            })
     }
 
     return (
