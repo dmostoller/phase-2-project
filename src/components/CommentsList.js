@@ -12,18 +12,15 @@ function CommentsList(){
        .then((comments) => setComments(comments))
     }, []);
 
-    const filteredComments = comments.filter(comment => {
-        return(comment.painting_id === id)
-    });
-    console.log(filteredComments);
-
-    const commentsSection = filteredComments.map(comment => (
+    const commentsSection = comments
+    .filter(comment => comment.painting_id == id)
+    .map(comment => (
         <Comment 
             key={comment.id} 
             name={comment.name} 
             comment={comment.comment} 
         />
-    ))
+        ))
 
     return (
         <div>

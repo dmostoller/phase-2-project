@@ -2,14 +2,14 @@ import React from "react";
 
 function CommentForm(){
     return (
-        <form className="ui form">
+        <form style={{width:"60%", margin:"auto"}}className="ui form">
             <div className="field">
-                <label>Comment</label>
-                <input type="text" name="comment" placeholder="comment"></input>
-                <input type="text" name="first name" placeholder="first name"></input>
+                <label>Add Comment</label>
+                <input type="text" name="name" placeholder="Your name here"></input>
+                <textarea id="comment" name="comment" placeholder="Your comment here"></textarea>               
             </div>
             <div className="field"></div>
-            <button style={{paddingBottom: "5px", float: "right"}} className="ui button teal" type="submit">Submit</button>
+            <button style={{float: "right"}} className="ui button small teal" type="submit">Submit</button>
         </form>
     )
 }

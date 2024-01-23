@@ -9,7 +9,7 @@ export default function Painting ({image, title, sold, width, height, materials,
                     <img src={image} alt={title}></img>
                 </div>
                 <div className="content">
-                    <a className="header">{title}</a>
+                    <div className="header">{title}</div>
                     <div className="description">{materials}</div>
                     <div className="description">{width}" x {height}"</div>
                 

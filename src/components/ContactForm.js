@@ -9,6 +9,7 @@ const ContactForm = () => {
  const sendEmail = (e) => {
    e.preventDefault(); 
 
+   
    emailjs.sendForm('service_jz3d31c', 'template_avspnq3', form.current, '2CBV5usGCJRMr4WbB')
      .then((result) => {
          alert("Your Message Has Been Sent")
