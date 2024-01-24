@@ -23,7 +23,8 @@ function CommentsList(){
         <Comment 
             key={comment.id} 
             name={comment.name} 
-            comment={comment.comment} 
+            comment={comment.comment}
+            date={comment.date} 
         />
         ))
 
@@ -34,7 +35,7 @@ function CommentsList(){
     return (
         <div>
             {commentsSection}
-            <div>
+            <div style={{paddingTop: "10px"}}>
                 {isComFormVis ? <CommentForm onAddComment={addComment} paintingId={id} onChangeIsComFormVis={changeIsComFormVis} /> : <button onClick={changeIsComFormVis} className="ui button small teal">Add Comment</button>}
             </div>
         </div>

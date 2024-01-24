@@ -22,6 +22,7 @@ function PaintingsPage () {
             painting.title.toLowerCase().includes(searchQ.toLowerCase())        
         )
     })
+    // add sort - to sort from smallest to biggest or boggest to smallest
 
 
     return (

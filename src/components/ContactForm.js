@@ -7,16 +7,16 @@ const ContactForm = () => {
  const navigate = useNavigate();
 
  const sendEmail = (e) => {
-   e.preventDefault(); 
-
-   
+   e.preventDefault();
+   if(window.confirm("Are you sure you want to send this email?")){ 
    emailjs.sendForm('service_jz3d31c', 'template_avspnq3', form.current, '2CBV5usGCJRMr4WbB')
      .then((result) => {
          alert("Your Message Has Been Sent")
          navigate("/")
      }, (error) => {
-        console.log ("error")
+         alert("Your Message Cannot Be Sent")
      });
+   };
  };
 
  return (
