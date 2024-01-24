@@ -24,8 +24,6 @@ function Search({searchQ, onSearch, sortBy}) {
                 </label>
             </div>
         </div>
-
-
     )
 
 }
