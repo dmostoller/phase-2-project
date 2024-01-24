@@ -20,7 +20,7 @@ function PaintingDetail(){
             <div className="ui container" style={{width:"90%"}}>
                 <div>
                     <div className="image">
-                        <img src={painting.image} alt={painting.title} style={{width:"100%", margin:"auto"}}></img>
+                        <img src={painting.fullsize} alt={painting.title} style={{width:"100%", margin:"auto"}}></img>
                     </div>
                     <div className="content">
                             <div className="header"><h2>{painting.title}</h2></div>
