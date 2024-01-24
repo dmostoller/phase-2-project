@@ -4,6 +4,7 @@ import Buttons from './Buttons';
 const Wrapper = styled.div`
   position: relative;
   width: 500px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 `;

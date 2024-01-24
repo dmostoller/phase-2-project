@@ -3,7 +3,7 @@ import React from "react";
 function Search({searchQ, onSearch, sortBy, selected}) {
     return (
         <div className="ui container">
-            <div className="ui icon input">
+            <div className="ui icon input ">
                 <input 
                 type="text"
                 value={searchQ}

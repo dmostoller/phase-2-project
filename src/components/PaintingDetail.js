@@ -27,7 +27,7 @@ function PaintingDetail(){
                             <div className="description">{painting.materials}</div>
                             <div className="description">{painting.width}" x {painting.height}"</div>
                             <div className="description">
-                                {painting.sold ? "SOLD" : <a>{painting.price}</a>}
+                                {painting.sold ? "SOLD" : <Link to="/contact">{painting.price}</Link>}
                             </div>
 
 

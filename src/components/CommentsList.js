@@ -33,9 +33,9 @@ function CommentsList(){
     }
 
     return (
-        <div>
+        <div className="ui container">
             {commentsSection}
-            <div style={{paddingTop: "10px"}}>
+            <div style={{paddingBottom: "25px", paddingTop: "10px"}}>
                 {isComFormVis ? <CommentForm onAddComment={addComment} paintingId={id} onChangeIsComFormVis={changeIsComFormVis} /> : <button onClick={changeIsComFormVis} className="ui button small teal">Add Comment</button>}
             </div>
         </div>

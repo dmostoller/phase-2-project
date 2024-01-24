@@ -38,7 +38,7 @@ function PaintingsPage () {
             <div className="ui container">
                 <Search searchQ={searchQ} onSearch={setSearchQ} selected={sortBy} sortBy={handleSortBy}/>
             </div>
-            <div className="ui container" style={{marginTop:"50px"}}>
+            <div className="ui container" style={{paddingTop:"40px"}}>
                 <PaintingsList paintings={searchResults} />
             </div>
         </div>
