@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search({searchQ, onSearch, sortBy}) {
+function Search({searchQ, onSearch, sortBy, selected}) {
     return (
         <div className="ui container">
             <input 
@@ -11,15 +11,15 @@ function Search({searchQ, onSearch, sortBy}) {
             />
             <div>
                 <label>
-                    <input type="radio" value="Default" checked={true} onChange={sortBy} />
+                    <input type="radio" value="Default" checked={selected === "Default"} onChange={sortBy} />
                     Default
                 </label>
                 <label>
-                    <input type="radio" value="Small" checked={false} onChange={sortBy} />
+                    <input type="radio" value="Small" checked={selected === "Small"} onChange={sortBy} />
                     Smallest to Largest
                 </label>
                 <label>
-                    <input type="radio" value="Large" checked={false} onChange={sortBy} />
+                    <input type="radio" value="Large" checked={selected === "Large"} onChange={sortBy} />
                     Largest to Smallest
                 </label>
             </div>
