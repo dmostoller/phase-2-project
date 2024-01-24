@@ -291,6 +291,20 @@
       "name": "Stephen Colbert",
       "comment": "I love it!",
       "date": "1/24/2024"
+    },
+    {
+      "id": "fdbe",
+      "painting_id": 3,
+      "name": "jay z",
+      "comment": "hot fire",
+      "date": "1/24/2024"
+    },
+    {
+      "id": "ffd7",
+      "painting_id": 7,
+      "name": "tupac",
+      "comment": "amazing!",
+      "date": "1/24/2024"
     }
   ]
 }

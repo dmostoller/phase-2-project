@@ -11,10 +11,9 @@ export default function Painting ({image, title, sold, width, height, materials,
                 <div className="content">
                     <div className="header">{title}</div>
                     <div className="description">{materials}</div>
-                    <div className="description">{width}" x {height}"</div>
-                
+                    <div className="description">{width}" x {height}"</div>                
                     <div className="description">
-                        {sold ? "SOLD" : <a>{price}</a>}
+                        {sold ? "SOLD" : <Link to="/contact">{price}</Link>}
                     </div>
                     <div style={{paddingBottom: "5px", float: "right"}}> 
                         <Link to={`/paintings/${id}`} className="ui button small teal">View Details</Link>
