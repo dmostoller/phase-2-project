@@ -6,7 +6,7 @@ function PaintingsPage () {
 
     const [paintings, setPaintings] = useState([])
     const [searchQ, setSearchQ] = useState("")
-    const [sortSize, setSortSize] = useState("")
+    const [sortBy, setSortBy] = useState("Default")
 
     
 
@@ -22,13 +22,21 @@ function PaintingsPage () {
             painting.title.toLowerCase().includes(searchQ.toLowerCase())        
         )
     })
-    // add sort - to sort from smallest to biggest or boggest to smallest
+    if (sortBy === "Small"){
+        (searchResults.sort((a, b) => (a.width*a.height) < (b.width*b.height) ? -1 : 1))
+    } else if (sortBy === "Large"){
+       (searchResults.sort((a, b) => (a.width*a.height) > (b.width*b.height) ? -1 : 1))
+    }
 
+    const handleSortBy = (e) => {
+        console.log(e.target.value)
+        setSortBy(e.target.value)
+    }
 
     return (
         <div className="ui container">
             <div className="ui container">
-                <Search searchQ={searchQ} onSearch={setSearchQ} sortSize={sortSize} onSortSize={setSortSize}/>
+                <Search searchQ={searchQ} onSearch={setSearchQ} selected={sortBy} sortBy={handleSortBy}/>
             </div>
             <div className="ui container" style={{marginTop:"50px"}}>
                 <PaintingsList paintings={searchResults} />
