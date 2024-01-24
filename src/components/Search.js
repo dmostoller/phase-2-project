@@ -1,6 +1,6 @@
 import React from "react";
 
-function Search({searchQ, onSearch, searchSize, onSearchSize}) {
+function Search({searchQ, onSearch, sortBy}) {
     return (
         <div className="ui container">
             <input 
@@ -9,12 +9,20 @@ function Search({searchQ, onSearch, searchSize, onSearchSize}) {
             placeholder="Search paintings..."
             onChange={(e) => onSearch(e.target.value)}
             />
-            <select onChange={onSearchSize}>
-                <option value="">All Sizes</option>
-                <option value="small">Small (under 2 feet)</option>
-                <option value="medium">Medium (2-5 feet)</option>
-                <option value="large">Large (over 5 feet)</option>
-            </select>
+            <div>
+                <label>
+                    <input type="radio" value="Default" checked={true} onChange={sortBy} />
+                    Default
+                </label>
+                <label>
+                    <input type="radio" value="Small" checked={false} onChange={sortBy} />
+                    Smallest to Largest
+                </label>
+                <label>
+                    <input type="radio" value="Large" checked={false} onChange={sortBy} />
+                    Largest to Smallest
+                </label>
+            </div>
         </div>
 
 
