@@ -11,8 +11,7 @@ function PaintingsPage () {
     
 
     useEffect(() => {
-        console.log(process.env.REACT_APP_API_URL)
-      fetch(`https://yasiart-com.onrender.com/paintings`)
+      fetch(`${process.env.REACT_APP_API_URL}/paintings`)
       .then((res) => res.json())
       .then((paintings) => {setPaintings(paintings)})
     }, []);
