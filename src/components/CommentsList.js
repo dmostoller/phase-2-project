@@ -12,7 +12,7 @@ function CommentsList(){
     }
 
     useEffect(() => {
-        fetch(`http://localhost:3004/comments`)
+        fetch(`${process.env.REACT_APP_API_URL}/comments`)
        .then((res) => res.json())
        .then((comments) => setComments(comments))
     }, []);

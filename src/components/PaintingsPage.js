@@ -11,7 +11,7 @@ function PaintingsPage () {
     
 
     useEffect(() => {
-      fetch("http://localhost:3004/paintings")
+      fetch(`${process.env.REACT_APP_API_URL}/paintings`)
       .then((res) => res.json())
       .then((paintings) => {setPaintings(paintings)})
     }, []);

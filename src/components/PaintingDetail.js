@@ -8,7 +8,7 @@ function PaintingDetail(){
     const {id} = useParams();
     
     useEffect(() => {
-        fetch(`http://localhost:3004/paintings/${id}`)
+        fetch(`${process.env.REACT_APP_API_URL}/paintings/${id}`)
         .then((res) => res.json())
         .then((painting) => setPainting(painting))
     }, [id]);

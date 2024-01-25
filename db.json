@@ -302,6 +302,13 @@
       "name": " Leonardo",
       "comment": "marvelous!\n",
       "date": "1/25/2024"
+    },
+    {
+      "id": "20fa",
+      "painting_id": 12,
+      "name": "Joel Embiid",
+      "comment": "its beautiful!!",
+      "date": "1/25/2024"
     }
   ]
 }
