@@ -10,7 +10,7 @@ function Search({searchQ, onSearch, sortBy, selected}) {
                 placeholder="Search paintings..."
                 onChange={(e) => onSearch(e.target.value)}
                 />
-                <i class="search icon"></i>
+                <i className="search icon"></i>
             </div>
             <span>
                 <label style={{padding:"10px"}}>

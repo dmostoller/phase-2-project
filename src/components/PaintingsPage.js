@@ -29,7 +29,7 @@ function PaintingsPage () {
     }
 
     const handleSortBy = (e) => {
-        console.log(e.target.value)
+       //console.log(e.target.value)
         setSortBy(e.target.value)
     }
 

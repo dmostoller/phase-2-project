@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function AboutPage () {
 
 return (
+    <div className="ui container">
     <div style={{width: "75%", margin: "auto"}} className="ui card">
         <div className="image">
             <img className="ui huge image" src="./images/slider-2.jpg" alt="Yasmin Mostoller at the Jed William's Gallery"/>
@@ -27,6 +28,7 @@ return (
                 <Link to="/contact" className="ui button small teal">Contact Me</Link>
             </div>
         </div>
+</div>
 </div>
 
 

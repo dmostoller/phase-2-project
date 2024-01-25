@@ -208,73 +208,42 @@
     {
       "id": "1",
       "painting_id": 1,
-      "name": "David",
+      "name": "Tim",
       "comment": "I love the colors",
-      "date_added": ""
+      "date": "1/19/2024"
     },
     {
       "id": "2",
       "painting_id": 1,
-      "name": "David",
-      "comment": "I love the colors",
-      "date_added": ""
+      "name": "Alex",
+      "comment": "Absolutely stunning!",
+      "date": "1/20/2024"
     },
     {
       "id": "3",
       "painting_id": 1,
-      "name": "David Mostoller",
-      "comment": "I love the colors",
-      "date_added": ""
-    },
-    {
-      "id": "aa8c",
-      "painting_id": 3,
-      "name": "dave",
-      "comment": "dal;khn;KJLFND;LKAKLAS D;Plajhdklajlk;ajSLK;ajsl;kj. ;l'aL;la;l;lA;LSDJHHDSJHJHJHJKHJKHKJHJKHJKHSAJKDHSAJKHDSJKAHDSJKAHDJKASHDKJASHDJKSAHDJKSAHDJKASHDJKASHDJKASHDJKASHDJAK\ndal;khn;KJLFND;LKAKLAS D;Plajhdklajlk;ajSLK;ajsl;kj. ;l'aL;la;l;lA;LSDJHHDSJHJHJHJKHJKHKJHJKHJKHSAJKDHSAJKHDSJKAHDSJKAHDJKASHDKJASHDJKSAHDJKSAHDJKASHDJKASHDJKASHDJKASHDJAK"
-    },
-    {
-      "id": "ef8e",
-      "painting_id": 3,
-      "name": "FDA",
-      "comment": "CAN WE MAKE THIS WIDER\n"
-    },
-    {
-      "id": "2c5e",
-      "painting_id": 3,
-      "name": "Tim ",
-      "comment": "testing one two one two"
-    },
-    {
-      "id": "7d67",
-      "painting_id": 3,
-      "name": "dave",
-      "comment": "sdklsahjdklahjskol"
-    },
-    {
-      "id": "312c",
-      "painting_id": 3,
-      "name": "sdsd",
-      "comment": "fdsfsdfsdfdsf",
-      "date": "2024-01-24T17:40:13.064Z"
+      "name": "Peter Pan",
+      "comment": "I feel like a child again when I look at this painting",
+      "date": "1/21/2024"
     },
     {
       "id": "e5de",
       "painting_id": 3,
-      "name": "fdsfd",
-      "comment": "sddfsdfd",
+      "name": "Patty",
+      "comment": "Amazing!",
       "date": "1/24/2024"
     },
     {
       "id": "6d07",
       "painting_id": 1,
-      "name": "David ",
-      "comment": "i love it!\n",
+      "name": "Sam ",
+      "comment": "i love it!",
       "date": "1/24/2024"
     },
     {
       "id": "7443",
       "painting_id": 15,
-      "name": "David M",
+      "name": "Tommy",
       "comment": "I love the colors on this one!!",
       "date": "1/24/2024"
     },
@@ -309,7 +278,7 @@
     {
       "id": "87e4",
       "painting_id": 5,
-      "name": "dave",
+      "name": "Catherine",
       "comment": "amazing!",
       "date": "1/24/2024"
     },
@@ -319,6 +288,20 @@
       "name": "David M",
       "comment": "gorgeous!!",
       "date": "1/24/2024"
+    },
+    {
+      "id": "f412",
+      "painting_id": 2,
+      "name": "John Smith",
+      "comment": "stupendous!",
+      "date": "1/25/2024"
+    },
+    {
+      "id": "1cbf",
+      "painting_id": 2,
+      "name": " Leonardo",
+      "comment": "marvelous!\n",
+      "date": "1/25/2024"
     }
   ]
 }

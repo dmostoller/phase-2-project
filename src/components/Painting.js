@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function Painting ({image, title, sold, width, height, materials, price, id}) {
     return (
         <div className="four wide columns">
-            <div className="ui card">
+            <div className="ui card" style={{marginBottom: "15px"}}>
                 <div className="image">
                     <img src={image} alt={title}></img>
                 </div>
