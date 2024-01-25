@@ -10,7 +10,7 @@
       "price": "contact for price",
       "fullsize": "https://previews.dropbox.com/p/thumb/ACI_OAB3H9fI9yEUP9m-KMGgXQ_2Nrg09s6A9cWvXRaHAymcWC9R5j_XK8TigpJnkLZzI6f5RDg9oFaylA0nZ24Q-k3y4HjhooAm9GMyyzohf7nYPabD52RiM5o_nUMj9E0mguZH_AheH6Nm7VbE9eqEim5DGa013o5-YLA0UH-tgBMjSrjjcwsiHWMJMY1vHN65cl-oWsGI7BzeU35pNbXFi9iVmPt_8qE6ZSL8C_f7e7-VXbmULuNAZUZYgpuauZvC0n_M26lfP14PUIofQGpWLfaQ8bB6AgCEGOuFoXznZZtGhkznrVihTjEtrPPnw7P4ILBKvzAZGrxUzP84-qkZiBXWhBSe1f_F0PA2JrR4IZ1aaB55hPK9q8NKAiYlwTRGM_skceN1VeFkaK3vy3Bhr7XGxpQzKggTbPTVZvn6bOI3wbxB_Lp9101XoEO3AcKAtSQrCDeXeM1hLEnBuUk1b3OUuXe67-4WUER3S08enEr0pKc40d3lIWqjVQuHHkR5NZPu3zLPVABNBfaSFxOu/p.jpeg",
       "image": "https://static.wixstatic.com/media/1d469b_1f2db3f1efae41e692e98fcef5e11e0d~mv2.jpg/v1/fill/w_365,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Series%20A-43.jpg",
-      "sold": true
+      "sold": false
     },
     {
       "id": "2",
@@ -35,6 +35,17 @@
       "fullsize": "https://previews.dropbox.com/p/thumb/ACIco2YJZiZrKPLOx8ebnEOIQ2sSxuwAhwvyuIjQN7Vo64jdeXo9AzjqqLk19SY86t8aFoUzqdbXWAwDKkQclHZ4hIIf0Ymsuo7sBVmFE-Af89qdOHzel634gwTmvoFgzhhPZi9WX2jbIfKO5LN16PWEXWmo9CdkSX3VAw2RZ2uZKV_hNjdGIt3SbXGODGkWnATmzgaPB9b3zg_UTbqL7uPoysuhEXVQ5ReoYUoaBCjTIw0LdO9OMz0cjovKhyGjljJybBPhwvx1pIO3n8b2LGRE5y6jAuiAdxvNu05QM-o0TnMKgpac_zqn8KxfvOTgVM6qQ9nEXa_oT5CmR0M02-NvSsMgyTklVH6j-pPe1IeqxQBD0uy7eidjlLbO5wJpTsjrsc8_GB3DQkZPFYvts5PnlPB7gD8l21CcT-DI0l3os0NS0xiqguBW7sXaCVFNxsbeRHkALM0uqReMi9ddq0N7MgpaHMRwhvsuz-QiEDSXH-UxWmpR5wWwFlr5HrjtpaJjoyM6m0TrGsKH7H41PmY06klv2mc0CxaduAkum-vOp6d7RpJkdveSKn0ufWe9xe8/p.jpeg",
       "image": "https://static.wixstatic.com/media/1d469b_2ed238bf0e47489f83c3063229952328~mv2.jpg/v1/fill/w_370,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Untitled%2062x77_edited.jpg",
       "sold": false
+    },{
+      "id": "4",
+      "title": "Untitled",
+      "artist": "Yasmin Mostoller",
+      "width": 48,
+      "height": 52,
+      "materials": "Acrylic on Canvas",
+      "price": "contact for price",
+      "fullsize": "https://previews.dropbox.com/p/thumb/ACK3A0qareaCEA02WQfWshqBNNfM6OGQK-zxfU9PfWhZTGwV2BxC1-LhpFM_bZcx10lk82-yKqcoWWa4a9pNjKB_Bn-zxYlB0NcQsn3ZEDlwV7A71l9HmH9TMOvz6u6OX55wehEUzLmE6TTuRGd6YG8dG2PkWqj8fuIgjuYja1DV2rBKYfRZTNEh_G-5HnKfzlVGQA2gfz9wXHN84H-LTbmnxh3kLFJ38HY3FvmfWe0SVQuACSjwiWjWoUkAtMWWZzg1W6EtxKAUC9z1f7E22i1-EhDVwDQVN1GJL3lnLN7bAucFrbrXbss94cRhgy7W5MhbvvGnpRsd2UPCcgN1dP4Y/p.jpeg",
+      "image": "https://previews.dropbox.com/p/thumb/ACJhnegj-adJSUTK7DENXPS1yixKWScFmJOllCV4dmtkN26xJ3u4Wy-6KToE8j-P-QwKwzrQindS8975TY37xPPtMGlhgv02ofD1tjHxvP5xhLXHZCXsHjiKUXVOUPe1VLvrZ39rMbHN-Dy9bOzAuEh3j6S5mAOTg5KA-dQDyXUZgEJ_Tsr54XOFO5xLmbzJovjaysjKYkjFQYw2DJDePyxrQRs0fPirJsLeB8FxK_ph8tdQCZnS6XY6OIHtKPO-REcHK7Mjn9zNoGX4VsvQH_Eu7vcfbC4mohbAbDHrQoSkWJkpw0xT0iipmUPExS4xq4ENGwXysvUu63cF0RF79jW9/p.jpeg",
+      "sold": true
     },
     {
       "id": "5",
@@ -42,6 +53,7 @@
       "artist": "Yasmin Mostoller",
       "width": 24,
       "height": 48,
+      "materials": "Acrylic on Canvas",
       "price": "contact for price",
       "fullsize": "https://previews.dropbox.com/p/thumb/ACLonw35obEYyb468CxGixuAGVYyo_rXVRq0NI0hfKCba2vMaOLZs38AW2NG8kgDPbCrtSKp4o8CabRWrCrS1icImvdFXrbVXAfperUzXtEl8RzkYPuuKonsC6EndT52-8SowZIvLw7mS4uCi6pfYy0Mj184m5AX9L7zI6N-mHkJQ0D9gLHtcHwSPhY-0LxtmR_eZOCjM-VTRvW873iU0wdMtGL1_QWZtFFmXwj8wf1s-sc_ge-Z3HNe0Uuk17MmHRAnKhuzVl1cFaiZb9z842J9TXpBVd01MS8Aq9XflfDpRVTPbV8eTvc8AMsl0SzAO1hgtbJo9f7fs6o-I5i6EiPzErwTKV0bl5kqekLvaflfGAzzIrjfmT0vkEsDv5ajyn4Xy3-0MNpgaADtgNBJRBZOw32m9b7zuuR0EZQlssjyRn-1mjJ2p5fYsGtW63KOrrqxQd74h0efvTzhDQTxG8oi/p.jpeg",
       "image": "https://static.wixstatic.com/media/1d469b_546882f81c334a8f8c75cc1a40981cf9~mv2.jpg/v1/fill/w_217,h_440,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Series%20A-46.jpg",
@@ -308,6 +320,20 @@
       "painting_id": 12,
       "name": "Joel Embiid",
       "comment": "its beautiful!!",
+      "date": "1/25/2024"
+    },
+    {
+      "id": "abc5",
+      "painting_id": 1,
+      "name": "Trump",
+      "comment": "Bing bong swhhhoooooooo bam",
+      "date": "1/25/2024"
+    },
+    {
+      "id": "3743",
+      "painting_id": 7,
+      "name": "mario",
+      "comment": "its a wonderful!",
       "date": "1/25/2024"
     }
   ]
